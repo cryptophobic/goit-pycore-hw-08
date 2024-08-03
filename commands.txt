@@ -1,0 +1,16 @@
+hello
+add Jane 0501722625
+add Jane 0999999999
+phone Jane
+change Jane 0999999999 0954909119
+phone Jane
+add Jane 09549094119
+birthday Jane 30.07.2024
+birthday Jane 30.07.20242
+add John 0954456119
+birthday John 01.08.2024
+add Jack 0954455119
+birthday Jack 01.07.2024
+all
+greetings
+close
