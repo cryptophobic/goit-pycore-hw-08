@@ -29,14 +29,13 @@ class AddressBook(UserDict):
                 continue
 
             birthday = record.birthday.value
-            greetings_day = datetime(today.year, birthday.month, birthday.day).date()
+            greetings_day = datetime(birthday.year, birthday.month, birthday.day).date()
 
             if today > greetings_day:
                 continue
 
             if greetings_day < birthday:
                 continue
-
             if greetings_day - today <= timedelta(days=7):
                 if greetings_day.weekday() > 4:
                     greetings_day = greetings_day + timedelta(days=7 - greetings_day.weekday())
